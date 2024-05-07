@@ -92,7 +92,7 @@ const num3 = 5
 
 if (num1 < num2 && num2 > num3 && num3 < num1 ) {
   console.log("L'ordine crescente è:", num2, num1,num3 );
-  
+
 }
  
 
@@ -101,7 +101,22 @@ if (num1 < num2 && num2 > num3 && num3 < num1 ) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-
+const x = "cinque"
+console.log(typeof x);
+const y = 27
+console.log(typeof y);
+if (typeof x === "numero") {
+  console.log("x è un numero");
+  
+} else{
+  console.log("x non è un numero");
+}
+if (typeof y === "numero" ) {
+  console.log("y non è un numero");
+  
+} else{
+  console.log("y è un numero");
+}
 /* ESERCIZIO 9
   Crea un algoritmo per controllare se un numero fornito sia pari o dispari (suggerimento: cerca l'operatore modulo su un motore di ricerca)
 */
