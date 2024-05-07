@@ -55,7 +55,7 @@ if (numero4 + numero5 === 8 || numero4 - numero5 === 8) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-const totalShoppingCart = 45
+let totalShoppingCart = 45
 const costiSpedizione = 10
 if (totalShoppingCart > 50) {
   console.log("Spedizione Gratuita"); 
@@ -68,6 +68,16 @@ if (totalShoppingCart > 50) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+const Sconto = totalShoppingCart * 0.2
+console.log(Sconto); 
+if (totalShoppingCart - Sconto > 50) {
+  console.log("Spedizione Gratuita");
+} else {
+  console.log((totalShoppingCart - Sconto) + costiSpedizione);
+
+}
+
+
 
 /* ESERCIZIO 7
   Crea tre variabili, e assegna un valore numerico a ciascuna di esse.
