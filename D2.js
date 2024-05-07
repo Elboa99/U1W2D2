@@ -122,7 +122,13 @@ if (typeof y === "numero" ) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-
+const num4 = 13
+if (num4 % 2 === 0) {
+  console.log("il numero è pari");
+  
+} else{
+  console.log("il numero è dispari");
+}
 /* ESERCIZIO 10
   Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.
   let val = 7
