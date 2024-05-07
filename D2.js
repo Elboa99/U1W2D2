@@ -32,13 +32,21 @@ if (numero3 !== 5) {
 numero1
 if (numero1 % 5 === 0) {
   console.log("divisibile per 5");
-  
-}
+} 
+
+
 /* ESERCIZIO 4
   Scrivi un algoritmo per verificare che, dati due numeri interi, il valore di uno di essi sia 8 oppure se la loro addizione/sottrazione sia uguale a 8.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+const numero4 = 8
+const numero5 = 0
+if (numero4 + numero5 === 8 || numero4 - numero5 === 8) { 
+  console.log("vero") 
+} else{
+  console.log("falso");
+}
 
 /* ESERCIZIO 5
   Stai lavorando su un sito di e-commerce. Stai salvando il saldo totale del carrello dell'utente in una variabile "totalShoppingCart".
@@ -47,7 +55,13 @@ if (numero1 % 5 === 0) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-
+const totalShoppingCart = 45
+const costiSpedizione = 10
+if (totalShoppingCart > 50) {
+  console.log("Spedizione Gratuita"); 
+} else{
+  console.log(totalShoppingCart + costiSpedizione);
+}
 /* ESERCIZIO 6
   Stai lavorando su un sito di e-commerce. Oggi è il Black Friday e viene applicato il 20% su ogni prodotto.
   Modifica la risposta precedente includendo questa nuova promozione nell'algoritmo, determinando come prima se le spedizioni sono gratuite oppure no e e calcolando il totale.
