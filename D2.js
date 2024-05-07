@@ -86,6 +86,15 @@ if (totalShoppingCart - Sconto > 50) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+const num1 = 9
+const num2 = 97
+const num3 = 5
+
+if (num1 < num2 && num2 > num3 && num3 < num1 ) {
+  console.log("L'ordine crescente è:", num2, num1,num3 );
+  
+}
+ 
 
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
